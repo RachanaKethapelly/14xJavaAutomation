@@ -4,10 +4,10 @@ public class program002_printnextline
 {
     public static void main(String[] args)
     {
-        System.out.print("Hello,");
-        System.out.print(" I");
-        System.out.print(" AM");
-        System.out.print(" RACHANA");
+        System.out.println("Hello,");
+        System.out.println(" I");
+        System.out.println(" AM");
+        System.out.println(" RACHANA");
 
     }
 }
