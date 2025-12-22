@@ -10,7 +10,6 @@ public class program010_operators
       //  int c = a+b;
         //Arithmetic operator addition, subtraction, division, multiplication, modulus
         System.out.println("arithmetic operations:");
-        System.out.println();
         System.out.println("addition = " + (a+b) );
         System.out.println( "subtraction=" + (a-b));
         System.out.println("division=" + (a/b));
@@ -23,7 +22,6 @@ public class program010_operators
         int a2 = 10;
         int a1 = 110;
         System.out.println("unary operations:");
-        System.out.println();
         System.out.println("post increment =" + a2++); // a++ is post increment
         System.out.println("post decrement =" + a1--); // a-- post decrement
         System.out.println(a2);
@@ -38,7 +36,6 @@ public class program010_operators
 
       //  b1+=b2(b1 = b1+b2 ) , b1-=b2(b1=b1-b2), b2*=b1(b2=b2*b1) b1/=b2(b1=b1/b2) , b1%=b2(b1 = b1%b2)
         System.out.println("assignment operator");
-        System.out.println();
         System.out.println(b1+=b2);
         System.out.println( b1-=b2);
         System.out.println(b2*=b1);
@@ -51,7 +48,6 @@ public class program010_operators
         int c1 = 7;
         int c2 = 17;
         System.out.println("relational operator");
-        System.out.println();
         System.out.println(c1<c2); // < less than
         System.out.println(c1>c2); // > greater than
         System.out.println(c1<=c2); // <= less than equal to
@@ -65,7 +61,6 @@ public class program010_operators
         boolean d1 = true;
         boolean d2 = false;
         System.out.println("Logical operator:");
-        System.out.println();
         System.out.println(!d1); // not operator
 
          boolean e1 = d1||d2;      // or operator
@@ -74,9 +69,25 @@ public class program010_operators
         System.out.println(e2);
         System.out.println();
 
+       /* //Ternary operator
+          result = condition?expression1:expression2; */
+        System.out.println("Ternary operator");
+       int marks = 84;
+       String total = marks > 35 ? "pass" : "Fail";
+        System.out.println(total);
+        System.out.println();
+
+        //ternary operator example
+        System.out.println("ternary operator example");
+        int age = 21;
+        String result = age>18 ? (age>25? "you can vote" : " you cannot vote") : "NO" ;
+        System.out.println(result);
+
+
 
         //Bitwise &(AND), |(OR), ^(XOR)
 
+        System.out.println("Bitwise");
         int f1 = 7;
         int f2 = 17 , g1, g2, g3;
         g1=f1|f2;
@@ -85,11 +96,15 @@ public class program010_operators
         System.out.println(g1);
         System.out.println(g2);
         System.out.println(g3);
+        System.out.println();
 
         //Shift operator >> , <<
 
+        System.out.println("shift operator");
         int h1 = 5, h2= 2 ;
         System.out.println(h1>>h2);
         System.out.println(h1<<h2);
+
+
     }
 }
