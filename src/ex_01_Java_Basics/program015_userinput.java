@@ -7,7 +7,7 @@ public class program015_userinput
         String up1 = args[0];
         String up2 = args[1];
         String up3 = args[2];
-        String up4 = args[3];
+        String up4= args[3];
 
         // the values are stored inn the program arguments
 
