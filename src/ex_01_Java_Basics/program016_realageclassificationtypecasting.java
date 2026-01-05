@@ -1,6 +1,6 @@
 package ex_01_Java_Basics;
 
-public class program_016_realageclassificationtypecasting
+public class program016_realageclassificationtypecasting
 {
     public static void main(String[] args)
     {
